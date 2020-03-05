@@ -1,0 +1,62 @@
+@media (max-width: 760px) {
+
+    nav {
+     position: fixed;
+     width: 100%;
+    }
+
+    .nav-contacts {
+      display: none;
+    }
+
+    .nav-icons {
+      float: right;
+      font-size: 20px;
+    }
+
+    .nav-icons :first-child {
+      color: lightgrey;
+      left: 5px;
+      position: relative;
+    }
+
+    .nav-icons :last-child {
+        color: orangered;
+    }
+
+    .nav-icons i {
+      border-left: solid 1px lightgrey;
+      height: 45px;
+      padding: 10px;
+      padding-top: 12px;
+    }
+
+    .nav-search ul{
+      display: none;
+    }
+
+    nav p {
+      background: linear-gradient(149deg, rgba(235,44,160,1) 16%, rgba(223,89,32,1) 80%);
+      color: white;
+      float: left;
+      font-size: 25px;
+      font-weight: bold;
+      height: 45px;
+      padding-top: 10px;
+      text-align: center;
+      width: 105px;
+    }
+
+    .tech-festival {
+      background-color: rgb(255, 230, 0);
+      clear: left;
+      height: 65px;
+      padding-top: 23px;
+      text-align: center;
+    }
+
+    .tech-festival a {
+      color: black;
+      text-decoration: none;
+    }
+}
