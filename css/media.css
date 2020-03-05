@@ -11,23 +11,20 @@
 
     .nav-icons {
       float: right;
-      font-size: 20px;
     }
 
     .nav-icons :first-child {
-      color: lightgrey;
       left: 5px;
       position: relative;
     }
 
     .nav-icons :last-child {
-        color: orangered;
+      color: orangered;
+      display: inline;
     }
 
     .nav-icons i {
-      border-left: solid 1px lightgrey;
       height: 45px;
-      padding: 10px;
       padding-top: 12px;
     }
 
@@ -38,6 +35,7 @@
     nav p {
       background: linear-gradient(149deg, rgba(235,44,160,1) 16%, rgba(223,89,32,1) 80%);
       color: white;
+      display: block;
       float: left;
       font-size: 25px;
       font-weight: bold;

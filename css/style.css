@@ -1,10 +1,16 @@
 * {
+  font-family: 'Lato', Impact, 'Arial Narrow Bold', sans-serif;
   margin: 0;
   padding: 0;
   box-sizing: border-box;
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
-  font-family: 'Lato', Impact, 'Arial Narrow Bold', sans-serif;
+}
+
+nav {
+  position: fixed;
+  width: 100%;
+  top: 0;
 }
 
 .nav-contacts {
@@ -39,24 +45,46 @@ nav p {
   background-color:white;
   display: flex;
   justify-content: space-between;
+}
+
+.nav-icons :first-child {
+  color: lightgrey;
+}
+
+.nav-icons {
+  font-size: 20px;
+}
+
+.nav-icons i {
+  border-left: solid 1px lightgrey;
   padding: 10px;
 }
 
-.nav-search ul li {
-  display: inline;
-  list-style: none;
-  padding: 15px;
-  font-size: 15px;
+.nav-icons :last-child {
+  display: none;
 }
 
-.nav-search ul li a {
+.nav-search ul {
+  list-style: none;
+  padding: 7px 0;
+}
+
+.nav-search ul li {
   color:rgb(112, 109, 109);
+  display: inline;
+  font-size: 12px;
+  padding: 0 15px;
   text-decoration: none;
+}
+
+.nav-search ul li:hover {
+    color: black;
+    cursor: pointer;
 }
 
 .tech-festival {
   background-color:rgb(255, 230, 0);
-  font-size: 15px;
+  font-size: 13px;
   margin: 0;
   padding: 10px 25px;
 }
@@ -64,4 +92,101 @@ nav p {
 .tech-festival a {
   color: black;
   text-decoration: none;
+}
+
+.header-news {
+  display: grid;
+  gap: 8px;
+  grid-template-columns: 2fr 1fr;
+  grid-template-rows: repeat(2, 1fr);
+  height: 550px;
+  margin: 118px 8px 0 8px;
+}
+
+header > article {
+    margin: 2px;
+    margin-left: 8px;
+}
+
+.main-header-news {
+  background-image: url(https://thenextweb.com/wp-content/blogs.dir/1/files/2020/03/1-6-796x417.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  grid-row: 1 / 3;
+}
+
+.logo {
+  align-items: flex-start;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  padding: 0 20px;
+}
+
+.logo :first-child {
+  font-size: 120px;
+  font-weight: bold;
+}
+
+.logo :last-child {
+    font-size: 14px;
+    padding: 20px 0;
+}
+
+.main-news-gradient {
+  background: linear-gradient(163deg, rgba(255,64,0,1) 0%, rgba(0,0,0,0.80) 82%);
+  height: 100%;
+  width: 100%;
+}
+
+.main-news-titles {
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  padding: 0 20px;
+  height: 400px;
+}
+
+.image-credits {
+  color: rgb(177, 177, 177);
+  font-size: 14px;
+  padding: 20px 0;
+}
+
+.image-credits span {
+    padding-left: 5px;
+}
+
+h1 {
+  font-size: 60px;
+  line-height: 55px;
+  padding: 5px 0;
+}
+
+h2 {
+  color: white;
+  font-weight: 900;
+  font-size: 26px;
+}
+
+.header-news-aside {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    padding: 0 20px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+  }
+  
+.header-news-1 {
+  background-image: url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/02/TNW-Conference-PanelImg.jpg);
+  padding: 20px 24px;
+}
+
+.header-news-2 {
+  background-image: url(https://thenextweb.com/wp-content/blogs.dir/1/files/2020/03/coronavirus-malware-infect-system-796x417.jpg);
+  background-size: 100% 100%;
 }
