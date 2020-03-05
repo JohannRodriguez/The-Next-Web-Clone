@@ -214,3 +214,36 @@ main section h2 {
   font-size: 28px;
   margin-top: 25px;
 }
+
+.updates {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  width: 86%;
+  margin: auto;
+  margin-top: 30px;
+  margin-bottom: 10px;
+}
+
+.updates h2 {
+  color: orangered;
+  font-size: 25px;
+}
+
+.up_dates {
+  display: flex;
+  font-size: 15px;
+  justify-content: space-between;
+  margin-right: 5px;
+  color: orangered;
+}
+
+.up_dates p {
+  margin-left: 10px;
+}
+
+.latest_funding_rnds {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: 1fr;
+} 
