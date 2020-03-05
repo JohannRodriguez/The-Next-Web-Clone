@@ -6,3 +6,62 @@
   -moz-box-sizing: border-box;
   font-family: 'Lato', Impact, 'Arial Narrow Bold', sans-serif;
 }
+
+.nav-contacts {
+  background-color: black;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+}
+
+.nav-contacts ul li {
+  display: inline;
+  list-style: none;
+  padding: 15px;
+  font-size: 13px;
+}
+
+nav p {
+  display: none;
+}
+
+.nav-contacts ul li a {
+  color:grey;
+  text-decoration: none;
+}
+
+.news {
+  color: white;
+}
+
+.nav-search {
+  background-color:white;
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+}
+
+.nav-search ul li {
+  display: inline;
+  list-style: none;
+  padding: 15px;
+  font-size: 15px;
+}
+
+.nav-search ul li a {
+  color:rgb(112, 109, 109);
+  text-decoration: none;
+}
+
+.tech-festival {
+  background-color:rgb(255, 230, 0);
+  font-size: 15px;
+  margin: 0;
+  padding: 10px 25px;
+}
+
+.tech-festival a {
+  color: black;
+  text-decoration: none;
+}
