@@ -1,7 +1,7 @@
 # The-Next-Web-Clone
 This is a microverse project to recreate the next web fpae.
 
-![screenshot](./images/screenshot.png)
+![screenshot](./screenshot.png)
 
 ## Built With
 
