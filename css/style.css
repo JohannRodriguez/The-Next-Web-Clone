@@ -95,6 +95,7 @@ nav p {
 }
 
 .header-news {
+  cursor: pointer;
   display: grid;
   gap: 8px;
   grid-template-columns: 2fr 1fr;
@@ -159,6 +160,28 @@ header > article {
     padding-left: 5px;
 }
 
+.latest-news p,
+.most-popular-images :last-child {
+  color: rgb(177, 177, 177);
+  font-size: 12px;
+  margin-top: 7px;
+  cursor: pointer;
+}
+
+h3 {
+  margin-top: 5px;
+}
+
+h3:hover {
+    cursor: pointer;
+    color: rgba(255,64,0,1);
+    text-decoration: underline;
+}
+
+.latest-news span {
+  padding: 3px;
+}
+
 h1 {
   font-size: 60px;
   line-height: 55px;
@@ -191,7 +214,7 @@ h2 {
   background-size: 100% 100%;
 }
 
-.latest-news {
+.grid-template {
   display: grid;
   gap: 25px;
   grid-template-columns: repeat(4, 1fr);
@@ -199,8 +222,8 @@ h2 {
   max-width: 1150px;
   margin: auto;
   margin-top: 70px;
-  position: relative;
   width: 100%;
+  padding: 0 20px;
 }
 
 .latest-news img {
@@ -216,34 +239,220 @@ main section h2 {
 }
 
 .updates {
-  display: flex;
-  justify-content: space-between;
   align-items: baseline;
-  width: 86%;
-  margin: auto;
-  margin-top: 30px;
-  margin-bottom: 10px;
-}
-
-.updates h2 {
-  color: orangered;
-  font-size: 25px;
-}
-
-.up_dates {
   display: flex;
-  font-size: 15px;
+  grid-column: span 4;
   justify-content: space-between;
-  margin-right: 5px;
-  color: orangered;
 }
 
-.up_dates p {
-  margin-left: 10px;
+.updates p {
+  display: flex;
 }
 
-.latest_funding_rnds {
+.updates p a {
+  color: rgba(255,64,0,1);
+  padding: 0 10px 3px 10px;
+  text-decoration: none;
+}
+
+.updates-border {
+  border-right: solid 1px rgba(255,64,0,1);
+}
+
+.header-decoration h2:hover {
+  cursor: pointer;
+  color: black;
+}
+
+.funding article {
+  position: relative;
+}
+
+.funding-grid {
   display: grid;
+  gap: 25px;
   grid-template-columns: repeat(4, 1fr);
-  grid-template-rows: 1fr;
-} 
+  grid-template-rows: 55px 1fr;
+  max-width: 1150px;
+  margin: auto;
+  margin-top: 70px;
+  width: 100%;
+  padding: 0 20px;
+}
+
+h4 {
+  background-color: rgba(255,64,0,1);
+  color: white;
+  padding: 10px 0 10px 80px;
+  cursor: pointer;
+}
+
+.funding-amount {
+  background-color: rgb(248, 211, 204);
+  padding: 10px 0 10px 80px;
+  cursor: pointer;
+}
+
+.funding-amount :first-child {
+  font-weight: bold;
+}
+
+.funding-amount :last-child {
+  color: rgb(117, 117, 117);
+  font-size: 12px;
+}
+
+.funding-association {
+  background-color: rgb(252, 241, 238);
+  color: rgb(83, 83, 83);
+  font-size: 14px;
+}
+
+.funding-association div {
+  padding: 10px;
+  line-height: 30px;
+}
+
+.funding-association i {
+  color: rgb(32, 32, 32);
+  padding: 0 10px;
+}
+
+.funding-association div p:hover {
+  cursor: pointer;
+  color: black;
+}
+
+.raised-money {
+  border-top: solid 1px rgb(248, 211, 204);
+  padding: 10px;
+  cursor: pointer;
+  line-height: 20px;
+}
+
+.raised-money span {
+  color: rgb(184, 184, 184);
+}
+
+.funding-img {
+  width: 60px;
+  position: absolute;
+  margin: 10px;
+}
+
+.most-popular {
+  display: grid;
+  gap: 25px;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+  max-width: 1150px;
+  margin: auto;
+  margin-top: 70px;
+  width: 100%;
+  padding: 0 20px;
+}
+
+.most-popular h2 {
+  color: orangered;
+  font-size: 28px;
+  margin-top: 25px;
+}
+
+.most-popular-images {
+  justify-content: flex-end;
+  color: white;
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  display: flex;
+  flex-direction: column;
+  height: 275px;
+  margin-top: 20px;
+  padding: 10px;
+  width: 100%;
+}
+
+.most-popular-images-1 {
+  background-image: url(https://thenextweb.com/wp-content/blogs.dir/1/files/2020/03/tndr2-796x417.png);
+}
+
+.most-popular-images-2 {
+  background-image: url(https://img-cdn.tnwcdn.com/image?fit=1280%2C720&url=https%3A%2F%2Fcdn0.tnwcdn.com%2Fwp-content%2Fblogs.dir%2F1%2Ffiles%2F2019%2F09%2FSonos-Move-1-of-7.jpg&signature=fdd729471b2ca01eeb5063855618ff48);
+}
+
+.most-popular-images-3 {
+  background-image: url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/08/twitter-796x417.png);
+}
+
+.most-popular-images-4 {
+  background-image: url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/02/Amazon-Dating-Featured-796x416.jpg);
+}
+
+.most-popular-images-5 {
+  background-image: url(https://img-cdn.tnwcdn.com/image?fit=1280%2C720&url=https%3A%2F%2Fcdn0.tnwcdn.com%2Fwp-content%2Fblogs.dir%2F1%2Ffiles%2F2020%2F03%2Fcode-1076536_1920.jpg&signature=2e75357e1e9b104caa33cb3a545dcbeb);
+}
+
+.most-popular-images-6 {
+  background-image: url(https://img-cdn.tnwcdn.com/image?fit=1280%2C720&url=https%3A%2F%2Fcdn0.tnwcdn.com%2Fwp-content%2Fblogs.dir%2F1%2Ffiles%2F2019%2F08%2Fbitcoin_today-header_bitcoin_today.jpg&signature=b75eca35f42accc83310a4fa4e562088);
+}
+
+.most-popular-images-7 {
+  background-image: url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/03/bubble-car-isetta-bmw-microlino-microletta-ev-car-new-announced-796x449.png);
+}
+
+.most-popular-images-8 {
+  background-image: url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/02/OnlyFans-Featured-796x417.jpg);
+}
+
+.most-popular-images :first-child{
+  font-size: 12px;
+}
+
+.most-popular-recomendations {
+  position: relative;
+}
+
+.most-popular-recomendations div {
+  background-color: rgb(248, 227, 219);
+  height: 90px;
+  padding: 15px;
+  padding-right: 95px;
+}
+
+.most-popular-recomendations img {
+  position: absolute;
+  right: 0;
+  top: 0em;
+  width: 90px;
+  height: 90px;
+}
+
+.most-popular-recomendations div :first-child {
+  color: orangered;
+  font-size: 12px;
+}
+
+.most-popular-recomendations div :nth-child(2) {
+  color: orangered;
+  font-weight: bold;
+}
+
+.most-popular-recomendations div :nth-child(2):hover {
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+.most-popular-recomendations ul{
+  font-size: 14px;
+  color: orangered;
+  padding-left: 17px;
+}
+
+.most-popular-recomendations li {
+  padding: 10px 0;
+  border-bottom: solid 1px lightgrey;
+}
+
+.most-popular-recomendations a {
+  color: rgb(99, 99, 99);
+  text-decoration: none;
+}
