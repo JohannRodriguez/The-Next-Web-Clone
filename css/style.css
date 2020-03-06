@@ -218,7 +218,7 @@ h2 {
   display: grid;
   gap: 25px;
   grid-template-columns: repeat(4, 1fr);
-  grid-template-rows: 250px repeat(2, 1fr);
+  grid-template-rows: 50px repeat(2, 1fr);
   max-width: 1150px;
   margin: auto;
   margin-top: 70px;
@@ -231,7 +231,7 @@ h2 {
   height: 137px;
 }
 
-main section h2 {
+.grid-template h2 {
   color: orangered;
   grid-column: span 4;
   font-size: 28px;
@@ -253,6 +253,10 @@ main section h2 {
   color: rgba(255,64,0,1);
   padding: 0 10px 3px 10px;
   text-decoration: none;
+}
+
+.updates h2 {
+  color: rgba(255,64,0,1);
 }
 
 .updates-border {
@@ -458,26 +462,29 @@ h4 {
 }
 
 footer {
-  background-color: black;
-  margin: 0;
-  padding: 0;
-  width: 100%;
+  margin-top: 60px;
 }
 
 .footer_1 {
+  align-items: center;
+  background-color: rgb(39, 42, 48);
   display: flex;
   justify-content: center;
-  align-items: center;
-  color: grey;
 }
 
 .footer_1 p {
-  background-color: grey;
+  background-color: rgb(73, 73, 73);
   padding: 8px;
-  border: 2px solid grey;
-  border-radius: 20px;
+  border: 2px solid rgb(73, 73, 73);
+  border-radius: 50%;
   margin-top: 30px;
   margin-left: 20px;
+  margin: 30px 10px 25px 10px;
+}
+
+.footer_1 p:hover {
+  cursor: pointer;
+  background-color: rgb(73, 73, 73, 0);
 }
 
 .footer_1 p i{
@@ -485,19 +492,36 @@ footer {
 }
 
 footer ul {
+  align-items: center;
+  background-color: rgb(39, 42, 48);
   display: flex;
   justify-content: center;
-  align-items: center;
   list-style: none;
-  margin-top: 30px;
 }
 
 footer ul li {
-  margin: 20px;
+  margin: 0 15px;
   font-size: 12px;
+  padding-bottom: 30px;
 }  
-footer ul li a {
+
+footer a {
   text-decoration: none;
-  color: grey;
+  color: rgb(173, 173, 173);
 }
 
+footer > p {
+  background-color: black;
+  color: rgb(173, 173, 173);
+  font-size: 14px;
+  padding: 30px;
+  text-align: center;
+}
+
+.heart {
+  color: rgb(255, 51, 0);
+}
+
+.powered-by {
+  font-weight: 900;
+}
