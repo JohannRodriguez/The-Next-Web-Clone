@@ -218,7 +218,7 @@ h2 {
   display: grid;
   gap: 25px;
   grid-template-columns: repeat(4, 1fr);
-  grid-template-rows: 55px repeat(2, 1fr);
+  grid-template-rows: 250px repeat(2, 1fr);
   max-width: 1150px;
   margin: auto;
   margin-top: 70px;
@@ -456,3 +456,48 @@ h4 {
   color: rgb(99, 99, 99);
   text-decoration: none;
 }
+
+footer {
+  background-color: black;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+}
+
+.footer_1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: grey;
+}
+
+.footer_1 p {
+  background-color: grey;
+  padding: 8px;
+  border: 2px solid grey;
+  border-radius: 20px;
+  margin-top: 30px;
+  margin-left: 20px;
+}
+
+.footer_1 p i{
+  color: white;
+}
+
+footer ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  list-style: none;
+  margin-top: 30px;
+}
+
+footer ul li {
+  margin: 20px;
+  font-size: 12px;
+}  
+footer ul li a {
+  text-decoration: none;
+  color: grey;
+}
+
