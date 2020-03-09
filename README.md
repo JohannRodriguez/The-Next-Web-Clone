@@ -1,5 +1,5 @@
 # The-Next-Web-Clone
-This is a microverse project to recreate the next web fpae.
+This is a microverse project to recreate the next web page.
 
 ![screenshot](./screenshot.png)
 
@@ -8,15 +8,15 @@ This is a microverse project to recreate the next web fpae.
 - HTML
 - CSS
 
-## Preoject specific
+## Project specific
 
-- Align all elements with float and flex or grid.
-- Use a mobile first approach when dealing with mediaqueries with 2 breakpoints.
-- Remember to double-check if you page layout does not brake on smaller screens.
+- Aligned all elements with float, flex and grid.
+- Used a mobile first approach when dealing with mediaqueries with 2 breakpoints.
+- Double-check of page layout on smaller screens.
 
 ## Live Demo
 
-[Live Demo Link](https://rawcdn.githack.com/KossySteve/Smashing_magazine_UI-UX/82a2716c3899635b0457615de49c4a9e7b0be187/index.html)
+[Live Demo Link](https://rawcdn.githack.com/JohannRodriguez/The-Next-Web-Clone/69773ca3737b6fc053941acbad90b85394245454/index.html)
 
 ## Authors
 
