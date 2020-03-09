@@ -10,13 +10,13 @@ This is a microverse project to recreate the next web fpae.
 
 ## Preoject specific
 
-- Align all elements with float and flex or grid.
-- Use a mobile first approach when dealing with mediaqueries with 2 breakpoints.
-- Remember to double-check if you page layout does not brake on smaller screens.
+- Aligned all elements with float and flex or grid.
+- Used a mobile first approach when dealing with mediaqueries with 2 breakpoints.
+- Double-check for breakpoints of page layout on smaller screens.
 
 ## Live Demo
 
-[Live Demo Link](https://rawcdn.githack.com/KossySteve/Smashing_magazine_UI-UX/82a2716c3899635b0457615de49c4a9e7b0be187/index.html)
+[Live Demo Link](https://rawcdn.githack.com/JohannRodriguez/The-Next-Web-Clone/e445bc6e9d619891a257411ba935fcff1198373d/index.html)
 
 ## Authors
 
